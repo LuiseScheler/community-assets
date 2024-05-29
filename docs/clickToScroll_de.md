@@ -38,12 +38,15 @@ Klicke: `Seite > Drei Punkte > Tracking Code`.
 ### Zum Ende der Seite scrollen
 
 ```html
-
 <script src="https://cdn.jsdelivr.net/gh/Perspective-Software/community-assets@1.1.0/scripts/clickToScroll.js"></script>
 
 <script>
     function psca_clickToScroll_init() {
-        psca_clickToScroll("CLICK_IMAGE_URL", "bottom", { offset: 0, position: "center"});
+        psca_clickToScroll(
+            "CLICK_IMAGE_URL",
+            "bottom",
+            { offset: 0, position: "center" }
+        );
     }
 </script>
 ```
@@ -51,12 +54,15 @@ Klicke: `Seite > Drei Punkte > Tracking Code`.
 ### Zum Anfang der Seite scrollen
 
 ```html
-
 <script src="https://cdn.jsdelivr.net/gh/Perspective-Software/community-assets@1.1.0/scripts/clickToScroll.js"></script>
 
 <script>
     function psca_clickToScroll_init() {
-        psca_clickToScroll("CLICK_IMAGE_URL", "top", { offset: 0, position: "center"});
+        psca_clickToScroll(
+            "CLICK_IMAGE_URL",
+            "top",
+            { offset: 0, position: "center" }
+        );
     }
 </script>
 ```
@@ -64,12 +70,15 @@ Klicke: `Seite > Drei Punkte > Tracking Code`.
 ### Zu bestimmtem Element scrollen
 
 ```html
-
 <script src="https://cdn.jsdelivr.net/gh/Perspective-Software/community-assets@1.1.0/scripts/clickToScroll.js"></script>
 
 <script>
     function psca_clickToScroll_init() {
-        psca_clickToScroll("CLICK_IMAGE_URL", "SCROLL_TO_CSS_SELECTOR", { offset: 0, position: "center"});
+        psca_clickToScroll(
+            "CLICK_IMAGE_URL",
+            "SCROLL_TO_CSS_SELECTOR",
+            { offset: 0, position: "center" }
+        );
     }
 </script>
 ```
@@ -77,12 +86,15 @@ Klicke: `Seite > Drei Punkte > Tracking Code`.
 ### Zu Element mit ID (wie Button) scrollen
 
 ```html
-
 <script src="https://cdn.jsdelivr.net/gh/Perspective-Software/community-assets@1.1.0/scripts/clickToScroll.js"></script>
 
 <script>
     function psca_clickToScroll_init() {
-        psca_clickToScroll("CLICK_IMAGE_URL", "*[id='SCROLL_TO_ELEMENT_ID']", { offset: 0, position: "center"});
+        psca_clickToScroll(
+            "CLICK_IMAGE_URL",
+            "*[id='SCROLL_TO_ELEMENT_ID']",
+            { offset: 0, position: "center" }
+        );
     }
 </script>
 ```
@@ -90,12 +102,15 @@ Klicke: `Seite > Drei Punkte > Tracking Code`.
 ### Zu anderem Bild scrollen
 
 ```html
-
 <script src="https://cdn.jsdelivr.net/gh/Perspective-Software/community-assets@1.1.0/scripts/clickToScroll.js"></script>
 
 <script>
     function psca_clickToScroll_init() {
-        psca_clickToScroll("CLICK_IMAGE_URL", "SCROLL_TO_IMAGE_URL", { offset: 0, position: "center"});
+        psca_clickToScroll(
+            "CLICK_IMAGE_URL",
+            "SCROLL_TO_IMAGE_URL",
+            { offset: 0, position: "center" }
+        );
     }
 </script>
 ```
