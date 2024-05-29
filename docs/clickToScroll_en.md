@@ -10,6 +10,7 @@
     * [Scroll to any element](#scroll-to-any-element)
     * [Scroll to an element having an ID (like a button)](#scroll-to-an-element-having-an-id-like-a-button)
     * [Scroll to another image](#scroll-to-another-image)
+  * [Scroll options](#scroll-options)
 <!-- TOC -->
 
 ## General
