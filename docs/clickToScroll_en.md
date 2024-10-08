@@ -3,7 +3,7 @@
 <!-- TOC -->
 * [Scroll by clicking on an image](#scroll-by-clicking-on-an-image)
   * [General](#general)
-  * [Zu ersetzende Werte](#zu-ersetzende-werte)
+  * [Values to Replace](#values-to-replace)
   * [Variants](#variants)
     * [Scroll to the end of the page](#scroll-to-the-end-of-the-page)
     * [Scroll to the top of the page](#scroll-to-the-top-of-the-page)
@@ -20,18 +20,18 @@
 These always have to be inserted into the page option "Tracking Code" of the corresponding page,
 where you want to achieve the scrolling behavior.
 
-Click: `Page > Three Dot Menu > Tracking Code`.
+Click: Page > Three Dot Menu > Tracking Code.
 
 ⚠️ **Second Note**: If you shall replace values, always **keep quotations marks**!
 
-## Zu ersetzende Werte
+## Values to Replace
 
-| Wert                     | Beschreibung                                                      |
-|--------------------------|-------------------------------------------------------------------|
-| `CLICK_IMAGE_URL`        | Address/URL of the image that shall start the scrolling on click. |
-| `SCROLL_TO_CSS_SELECTOR` | Generic CSS selector identifying the element to scroll to.        |
-| `SCROLL_TO_ELEMENT_ID`   | ID of a specific element to scroll to.                            |
-| `SCROLL_TO_IMAGE_URL`    | Address/URL of the image to scroll to.                            |
+| Value                   | Description                                                      |
+|-------------------------|------------------------------------------------------------------|
+| CLICK_IMAGE_URL         | Address/URL of the image that shall start the scrolling on click. |
+| SCROLL_TO_CSS_SELECTOR  | Generic CSS selector identifying the element to scroll to.       |
+| SCROLL_TO_ELEMENT_ID    | ID of a specific element to scroll to.                           |
+| SCROLL_TO_IMAGE_URL     | Address/URL of the image to scroll to.                           |
 
 ## Variants
 
@@ -125,12 +125,12 @@ In the code example there is always the following:
 
 These are the scroll options:
 
-- `offset`:
-  - Positive Zahl: Scrollt um `{offset}` Pixel weiter nach oben.
-  - Negative Zahl: Scrollt um `{offset}` Pixel weniger weiter nach oben.
-- `position`:
-  - Bestimmt, wo das Element, zu dem gescrollt werden soll, am Ende des Scrollens im Fenster positioniert sein soll.
-  - Mögliche Werte:
-    - `top`
-    - `center`
-    - `bottom`
+- offset:
+  - Positive number: Scrolls up by `{offset}` pixels.
+  - Negative number: Scrolls down by `{offset}` pixels.
+- position:
+  - Determines where the element to scroll to should be positioned in the window at the end of the scroll.
+  - Possible values:
+    - top
+    - center
+    - bottom
